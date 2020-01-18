@@ -1437,3 +1437,13 @@ body.offcanvas {
 .m2-bio {
   font-size: 1em;
 }
+
+.horizantal-view{
+  display: flex;
+  flex: 1 1 auto;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .horizantal-view{
+    display: contents;
+  }
+}
